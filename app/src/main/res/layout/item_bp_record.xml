@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginHorizontal="1dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/card_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <!-- Left accent stripe -->
+        <View
+            android:id="@+id/accent_stripe"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:background="#E53935"
+            android:layout_marginEnd="12dp" />
+
+        <!-- BP value -->
+        <TextView
+            android:id="@+id/tv_bp_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/accent_stripe"
+            android:text="120/80"
+            android:textColor="#E53935"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_bp_value"
+            android:layout_alignBottom="@id/tv_bp_value"
+            android:text=" mmHg"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:paddingBottom="2dp" />
+
+        <!-- Category badge -->
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bp_value"
+            android:layout_toEndOf="@id/accent_stripe"
+            android:layout_marginTop="3dp"
+            android:background="#1AE53935"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:text="Normal"
+            android:textColor="#E53935"
+            android:textSize="11sp" />
+
+        <!-- Pulse -->
+        <TextView
+            android:id="@+id/tv_pulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_category"
+            android:layout_toEndOf="@id/accent_stripe"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="4dp"
+            android:text="💓 72 bpm"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pulse"
+            android:layout_toEndOf="@id/accent_stripe"
+            android:layout_marginTop="2dp"
+            android:text="01 Jan 2025, 09:00 AM"
+            android:textColor="@color/text_hint"
+            android:textSize="11sp" />
+
+        <!-- Note -->
+        <TextView
+            android:id="@+id/tv_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_date"
+            android:layout_toEndOf="@id/accent_stripe"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <!-- Action buttons -->
+        <LinearLayout
+            android:id="@+id/ll_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_edit"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_edit_circle"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/accent_blue" />
+
+            <ImageView
+                android:id="@+id/btn_delete"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_delete"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="#E53935" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

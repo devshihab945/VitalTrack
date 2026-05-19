@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dark_dialog"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Notification Intensity Setting"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:lineSpacingMultiplier="1.4"
+        android:text="Please select the intensity of the notification.\nYou can try the notification by tapping the play icon. This setting can be changed later."
+        android:textColor="#AAAAAA"
+        android:textSize="12sp" />
+
+    <!-- Normal Vibration Option -->
+    <LinearLayout
+        android:id="@+id/option_normal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_vibration_option_selected"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp">
+
+        <View
+            android:id="@+id/check_normal"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/bg_check_circle" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Normal Vibration"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_play_normal"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/bg_play_button"
+            android:padding="8dp"
+            android:src="@drawable/ic_play"
+            app:tint="@color/white" />
+    </LinearLayout>
+
+    <!-- Alarm Vibration Option -->
+    <LinearLayout
+        android:id="@+id/option_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_vibration_option"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp">
+
+        <View
+            android:id="@+id/check_alarm"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="12dp"
+            android:alpha="0.3"
+            android:background="@drawable/bg_check_circle" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alarm Vibration"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_play_alarm"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/bg_play_button"
+            android:padding="8dp"
+            android:src="@drawable/ic_play"
+            app:tint="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save_vibration"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

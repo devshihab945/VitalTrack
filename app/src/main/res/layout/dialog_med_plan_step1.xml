@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Medicine Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/InputField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine Name">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_plan_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Frequency -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/InputField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Frequency"
+            app:endIconMode="dropdown_menu">
+            <AutoCompleteTextView
+                android:id="@+id/et_frequency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:padding="5dp"
+                android:text="Everyday" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Every X days -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_every_x_days"
+            style="@style/InputField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Every X days"
+            android:visibility="gone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_every_x_days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Enable/Disable -->
+        <LinearLayout
+            android:id="@+id/layout_enable_disable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/InputField"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Enable days (X)">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_enable_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <View android:layout_width="10dp" android:layout_height="1dp" />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/InputField"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Disable days (Y)">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_disable_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <!-- Day of week chips -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chips_weekdays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            app:selectionRequired="false"
+            app:singleSelection="false">
+            <com.google.android.material.chip.Chip android:id="@+id/chip_mon" style="@style/Widget.MaterialComponents.Chip.Choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mon"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chip_tue" style="@style/Widget.MaterialComponents.Chip.Choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tue"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chip_wed" style="@style/Widget.MaterialComponents.Chip.Choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wed"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chip_thu" style="@style/Widget.MaterialComponents.Chip.Choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thu"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chip_fri" style="@style/Widget.MaterialComponents.Chip.Choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fri"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chip_sat" style="@style/Widget.MaterialComponents.Chip.Choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sat"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chip_sun" style="@style/Widget.MaterialComponents.Chip.Choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sun"/>
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Day of month -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_day_of_month"
+            style="@style/InputField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Day of month (e.g. 1,15,30)"
+            android:visibility="gone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_day_of_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- ── Divider ── -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="#EEF0F5" />
+
+        <!-- ── Alarm Mode ── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALARM MODE"
+            android:textColor="#94A3B8"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Ring card -->
+            <LinearLayout
+                android:id="@+id/card_mode_ring"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_remind_chip_unselected"
+                android:clickable="true"
+                android:focusable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔔"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="6dp"/>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ring" android:textColor="#1A1A2E" android:textSize="14sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sound + vibrate" android:textColor="#94A3B8" android:textSize="10sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Vibrate card -->
+            <LinearLayout
+                android:id="@+id/card_mode_vibrate"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_remind_chip_unselected"
+                android:clickable="true"
+                android:focusable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📳"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="6dp"/>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vibrate" android:textColor="#1A1A2E" android:textSize="14sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Silent vibration" android:textColor="#94A3B8" android:textSize="10sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ── Remind Before ── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="REMIND BEFORE"
+            android:textColor="#94A3B8"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- 10 min -->
+            <LinearLayout
+                android:id="@+id/card_remind_10"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/bg_remind_chip_unselected"
+                android:clickable="true"
+                android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10 min" android:textColor="#1A1A2E" android:textSize="15sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="before" android:textColor="#94A3B8" android:textSize="11sp"/>
+            </LinearLayout>
+
+            <!-- 1 hour -->
+            <LinearLayout
+                android:id="@+id/card_remind_60"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/bg_remind_chip_unselected"
+                android:clickable="true"
+                android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 hour" android:textColor="#1A1A2E" android:textSize="15sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="before" android:textColor="#94A3B8" android:textSize="11sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="6dp" />
+
+    </LinearLayout>
+</ScrollView>

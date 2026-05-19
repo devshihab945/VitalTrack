@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#00897B</color>
+    <color name="primary_light">#69F0AE</color>
+    <color name="gradient_start">#00B4D8</color>
+    <color name="gradient_end">#00C853</color>
+    <color name="accent">#FF6B35</color>
+    <color name="accent_blue">#2196F3</color>
+    <color name="accent_red">#F44336</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_purple">#9C27B0</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="background">#F5F7FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="splash_bg_start">#00B4D8</color>
+    <color name="splash_bg_end">#00C853</color>
+    <color name="bmi_underweight">#2196F3</color>
+    <color name="bmi_normal">#4CAF50</color>
+    <color name="bmi_overweight">#FF9800</color>
+    <color name="bmi_obese">#F44336</color>
+
+    <color name="accent_green">#2196F3</color>
+
+    <color name="primary_teal">#1ECAB8</color>
+    <color name="toggle_on_bg">#E8FFF6</color>
+    <color name="toggle_on_text">#00B96B</color>
+    <color name="toggle_off_bg">#F0F0F0</color>
+    <color name="toggle_off_text">#999999</color>
+    <color name="color_alarm">#FF6565</color>
+
+
+</resources>

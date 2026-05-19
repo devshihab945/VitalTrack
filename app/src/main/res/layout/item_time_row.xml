@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="0dp"
+    android:layout_marginVertical="4dp"
+    app:cardBackgroundColor="#F8FAFF"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:strokeColor="#E5EAF5"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="4dp">
+
+        <!-- Clock icon pill -->
+        <TextView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_schedule_icon"
+            android:gravity="center"
+            android:text="⏰"
+            android:textSize="14sp" />
+
+        <!-- Time text -->
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="monospace"
+            android:text="07:00"
+            android:textColor="#1A1A2E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Edit -->
+        <ImageView
+            android:id="@+id/btn_edit_time"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="edit"
+            android:padding="8dp"
+            android:src="@drawable/ic_play"
+            app:tint="#94A3B8" />
+
+        <!-- Delete -->
+        <ImageView
+            android:id="@+id/btn_delete_time"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="delete"
+            android:padding="8dp"
+            android:src="@drawable/ic_delete"
+            app:tint="#EF4444" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="0dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="#F8FAFF"
+    app:strokeColor="#E5EAF5"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="4dp"
+        android:paddingVertical="10dp">
+
+        <!-- Meal icon pill -->
+        <TextView
+            android:id="@+id/tv_label_icon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:text="🍽"
+            android:textSize="14sp"
+            android:background="@drawable/bg_schedule_icon"
+            android:layout_marginEnd="10dp"/>
+
+        <!-- Label + dosage stacked -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="After Breakfast"
+                android:textColor="#1A1A2E"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/tv_dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="500mg"
+                android:textColor="#6B7280"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+        </LinearLayout>
+
+        <!-- Edit button -->
+        <ImageView
+            android:id="@+id/btn_edit"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_play"
+            android:contentDescription="edit"
+            app:tint="#94A3B8"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <!-- Delete button -->
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_delete"
+            android:contentDescription="delete"
+            app:tint="#EF4444"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

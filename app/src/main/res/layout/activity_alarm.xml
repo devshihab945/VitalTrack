@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B1220"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        app:cardBackgroundColor="#111827"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#22FFFFFF"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="1dp"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/ic_pill"
+                app:tint="#60A5FA" />
+
+            <TextView
+                android:id="@+id/tv_alarm_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Medicine Reminder"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_alarm_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:maxLines="5"
+                android:text="Take: Napa Extra\nAfter Breakfast • 500mg — 07:00"
+                android:textColor="#D1D5DB"
+                android:paddingBottom="10dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Row 1: Stop -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_alarm_stop"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="18dp"
+        android:text="Stop"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#EF4444"
+        app:cornerRadius="16dp" />
+
+    <!-- Row 2: Snooze 10m | Snooze 30m -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_alarm_snooze"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="Snooze 10m"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#2563EB"
+            app:cornerRadius="16dp" />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_alarm_snooze_30"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="Snooze 30m"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1D4ED8"
+            app:cornerRadius="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

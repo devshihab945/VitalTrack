@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="30dp"
+    android:viewportWidth="36"
+    android:viewportHeight="30">
+
+    <!-- Bar 1 - shortest (left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,16 L6,16 L6,30 L0,30 Z" />
+
+    <!-- Bar 2 - medium -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8.5,10 L14.5,10 L14.5,30 L8.5,30 Z" />
+
+    <!-- Bar 3 - taller -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17,5 L23,5 L23,30 L17,30 Z" />
+
+    <!-- Bar 4 - tallest (right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25.5,0 L31.5,0 L31.5,30 L25.5,30 Z" />
+
+</vector>

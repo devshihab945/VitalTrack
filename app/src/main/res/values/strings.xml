@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">VitalTrack</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next →</string>
+    <string name="get_started">Get Started</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="calculate">Calculate</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="calculate_daily_goal">Calculate Daily Goal</string>
+    <string name="calculate_calories">Calculate Calories</string>
+    <string name="add_medicine">Add Medicine</string>
+    <string name="add_record">Add Record</string>
+    <string name="full_name">Full Name</string>
+    <string name="age_years">Age (years)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="enter_height">Enter height</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="enter_age">Enter age</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="dosage">Dosage (e.g., 500mg)</string>
+    <string name="channel_id">medicine_reminder</string>
+    <string name="channel_name">Medicine Reminder</string>
+    <string-array name="blood_types">
+        <item>Select blood type</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="gender_options">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="activity_levels">
+        <item>Select Activity Level</item>
+        <item>Sedentary (little/no exercise)</item>
+        <item>Lightly active (1-3 days/week)</item>
+        <item>Moderately active (3-5 days/week)</item>
+        <item>Very active (6-7 days/week)</item>
+        <item>Super active (twice/day)</item>
+    </string-array>
+
+
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="water_alarm_channel_id">water_alarm_channel</string>
+    <string name="water_alarm_channel_name">Water Intake Alarm</string>
+
+    <!-- Language switcher -->
+    <string name="lang_switch_to_bn">বাংলা</string>
+    <string name="lang_switch_to_en">English</string>
+
+    <!-- Home Fragment -->
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening</string>
+    <string name="subtitle_stay_healthy">Stay healthy today!</string>
+    <string name="health_tip_title">Health Tip of the Day</string>
+    <string name="bmi_label">BMI</string>
+    <string name="water_label">Water</string>
+    <string name="steps_label">Steps</string>
+    <string name="calories_label">Calories</string>
+    <string name="burned_label">Burned</string>
+    <string name="quick_actions_label">Quick Actions</string>
+    <string name="of_goal">% of goal</string>
+    <string name="not_set">Not set</string>
+    <string name="normal">Normal</string>
+    <string name="underweight">Underweight</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese">Obese</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_title">Profile</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="name_label">Name</string>
+    <string name="age_label">Age</string>
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+    <string name="health_tracker_user">Health Tracker User</string>
+    <string name="unsubscribe">🚫  Unsubscribe</string>
+
+    <!-- Step Counter Fragment -->
+    <string name="step_counter_title">Step Counter</string>
+    <string name="walking_tab">🚶 Walking</string>
+    <string name="running_tab">🏃 Running</string>
+    <string name="walking_today">Walking Today</string>
+    <string name="of_goal_steps">of goal</string>
+    <string name="edit_label">✎ Edit</string>
+    <string name="start_walking">▶  Start Walking</string>
+    <string name="start_running">▶  Start Running</string>
+    <string name="stop_walking">■  Stop Walking</string>
+    <string name="stop_running">■  Stop Running</string>
+    <string name="distance_label">Distance</string>
+    <string name="time_label">Time</string>
+    <string name="weekly_activity">Weekly Activity</string>
+    <string name="tap_bar_detail">Tap a bar to see details</string>
+
+    <!-- Medicine Reminder -->
+    <string name="medicine_reminder_title">Medicine Reminders</string>
+    <string name="your_medicines">Your Medicines</string>
+    <string name="no_medicines">No medicines added yet.\nTap + to add a reminder.</string>
+
+    <!-- Quick Actions -->
+    <string name="qa_medicine_reminder">Medicine Reminder</string>
+    <string name="qa_step_counter">Step Counter</string>
+    <string name="qa_water_alarm">Water Intake Alarm</string>
+    <string name="qa_water_intake">Water Intake</string>
+    <string name="qa_calorie_calculator">Calorie Calculator</string>
+    <string name="qa_calculate_bmi">Calculate BMI</string>
+    <string name="qa_blood_pressure">Blood Pressure</string>
+    <string name="qa_blood_sugar">Blood Sugar</string>
+    <string name="qa_ideal_weight">Ideal Weight</string>
+    <string name="qa_calories_burned">Calories Burned</string>
+
+    <!-- Language dialog -->
+    <string name="select_language">Select Language</string>
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা</string>
+
+    <!-- Step Counter Fragment -->
+    <string name="of_n_steps_goal">of %1$s steps goal</string>
+    <string name="stop_walking_btn">⏹  Stop Walking</string>
+    <string name="stop_running_btn">⏹  Stop Running</string>
+    <string name="start_walking_btn">▶  Start Walking</string>
+    <string name="start_running_btn">▶  Start Running</string>
+    <string name="walk_label">Walk</string>
+    <string name="run_label">Run</string>
+    <string name="today_label">Today</string>
+    <string name="steps_goal_label">Steps Goal</string>
+    <string name="achieved_label">Achieved</string>
+    <string name="permission_required">⚠️  Permission Required</string>
+    <string name="permission_desc">Activity recognition permission is needed to count steps.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="of_goal_label">of goal</string>
+    <string name="edit_btn">✎ Edit</string>
+    <string name="running_today">Running Today</string>
+
+    <!-- BMI Calculator -->
+    <string name="bmi_calculator_title">BMI Calculator</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="bmi_under">Under\n18.5</string>
+    <string name="bmi_normal_range">Normal\n18.5-24.9</string>
+    <string name="bmi_over">Over\n25-29.9</string>
+    <string name="bmi_obese_range">Obese\n30+</string>
+    <string name="feet_inch">Feet &amp; Inch</string>
+    <string name="cm_label">CM</string>
+    <string name="gender_label">Gender</string>
+    <string name="activity_level_label">Activity Level</string>
+
+    <!-- Calorie Calculator -->
+    <string name="calorie_calculator_title">Calorie Calculator</string>
+    <string name="daily_calorie_needs">Daily Calorie Needs</string>
+    <string name="maintain_weight">Maintain Weight:</string>
+    <string name="mild_weight_loss">Mild Weight Loss:</string>
+    <string name="weight_loss">Weight Loss:</string>
+    <string name="weight_gain">Weight Gain:</string>
+
+    <!-- Calories Burned -->
+    <string name="calories_burned_title">Calories Burned</string>
+    <string name="exercise_burned">Exercise Burned</string>
+
+    <!-- Blood Sugar -->
+    <string name="blood_sugar_title">Blood Sugar Tracker</string>
+    <string name="latest_blood_sugar">🩸  Latest Blood Sugar</string>
+    <string name="normal_range_sugar">Normal range: 70-140 mg/dL</string>
+    <string name="history_label">History</string>
+    <string name="no_records">No records yet. Tap + to add one.</string>
+
+    <!-- Blood Pressure -->
+    <string name="blood_pressure_title">Blood Pressure Log</string>
+    <string name="latest_reading">Latest Reading</string>
+    <string name="no_data">No data</string>
+    <string name="no_records_bp">No records yet. Tap + to add one.</string>
+
+    <!-- Water Intake -->
+    <string name="water_intake_title">Water Intake</string>
+    <string name="daily_water_intake">Daily Water Intake</string>
+    <string name="todays_progress">Today\'s Progress</string>
+    <string name="water_glasses_unit">Water Glasses (250ml each)</string>
+    <string name="about_n_glasses">About %1$d glasses (250ml each)</string>
+
+    <!-- Water Intake Alarm -->
+    <string name="water_intake_alarm_title">Water Intake Alarm</string>
+    <string name="no_water_alarms">💧 No water alarms yet\nTap + to add your first reminder</string>
+
+    <!-- Ideal Weight -->
+    <string name="ideal_weight_title">Ideal Weight</string>
+    <string name="your_ideal_weight_range">Your Ideal Weight Range</string>
+    <string name="based_on_divine_male">Based on Devine Formula (Male)</string>
+    <string name="based_on_divine_female">Based on Devine Formula (Female)</string>
+
+    <!-- Profile Setup -->
+    <string name="profile_setup_title">Profile Setup</string>
+    <string name="personal_info_fill">Please fill in your details for better tracking</string>
+    <string name="blood_group_label">Blood Group</string>
+    <string name="terms_agree">By saving, you agree to our Terms of Service and\nPrivacy Policy regarding your health data.</string>
+
+    <!-- Onboarding -->
+    <string name="by_continuing">By continuing, you agree to our Terms and Privacy Policy</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Track your health, live better.</string>
+
+    <!-- Profile Fragment extra -->
+    <string name="premium_active">সক্রিয়</string>
+    <string name="premium_member">প্রিমিয়াম সদস্য</string>
+    <string name="premium_price">রবি/এয়ারটেল: ৳২.০০+VAT+SD প্রতিদিন</string>
+
+    <!-- Dialogs -->
+    <string name="add_blood_pressure">Add Blood Pressure</string>
+    <string name="add_blood_sugar">Add Blood Sugar</string>
+    <string name="save_label">Save</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="pre_reminders">Pre-reminders</string>
+    <string name="remind_1hr">Remind 1 hour before</string>
+    <string name="remind_10min">Remind 10 minutes before</string>
+    <string name="hour_label">Hour</string>
+    <string name="minute_label">Minute</string>
+    <string name="am_pm_label">AM/PM</string>
+
+    <!-- Misc -->
+    <string name="kg_m2">kg/m²</string>
+    <string name="steps_unit">steps</string>
+    <string name="kcal_unit">kcal</string>
+    <string name="l_unit">L</string>
+    <string name="login_tips"><![CDATA[আপনার স্বাস্থ্য, আপনার যাত্রা। পদক্ষেপ, পানি, BMI, ক্যালোরি সব কিছু — এক জায়গায় ট্র্যাক করুন।]]></string>
+    <string name="healthfit_tracker_details">🌿 Your Smart Companion for a Healthier Life 🌿
+Now all the essential health services are available in one app! Manage your body, health, and daily fitness intelligently with our modern VitalTrack – Health Monitor Application.</string>
+
+
+</resources>
+
+

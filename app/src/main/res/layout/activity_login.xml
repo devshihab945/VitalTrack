@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:orientation="vertical">
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         TOP HERO BANNER  (gradient green→teal, always visible)
+         ═══════════════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:id="@+id/layout_hero"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/gradient_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="24dp">
+
+        <!-- App icon -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- App name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.04"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Tagline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="আপনার স্বাস্থ্য, আমাদের অগ্রাধিকার"
+            android:textColor="#CCFFFFFF"
+            android:textSize="13sp" />
+
+        <!-- Premium badge -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/premium_badge_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.06"
+                android:text="⭐  PREMIUM SUBSCRIBER"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         CARD PANEL  (white rounded card, pulls up over hero)
+         ═══════════════════════════════════════════════════════════════ -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="-24dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="28dp"
+                android:paddingTop="32dp"
+                android:paddingBottom="32dp">
+
+                <!-- ─── PANEL 1: PHONE INPUT ─────────────────────────── -->
+                <LinearLayout
+                    android:id="@+id/otpLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <!-- Section title -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ব্যবহার শুরু করুন"
+                        android:textColor="#212121"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="28dp"
+                        android:lineSpacingExtra="3dp"
+                        android:text="ব্যবহার শুরু করতে আপনার রবি / এয়ারটেল নাম্বার দিন।"
+                        android:textColor="#757575"
+                        android:textSize="13sp" />
+
+                    <!-- Subscription info banner -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/info_banner_bg"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="💡"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/login_tips"
+                            android:textColor="#00897B"
+                            android:textSize="12sp"
+                            android:padding="2dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!-- Phone number label -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="মোবাইল নাম্বার"
+                        android:textColor="#212121"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <!-- Phone input row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="@drawable/input_field_bg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="4dp">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/countryCodePicker"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:ccpDialog_keyboardAutoPopup="false"
+                            app:ccp_arrowSize="14sp"
+                            app:ccp_autoFormatNumber="true"
+                            app:ccp_defaultPhoneCode="880"
+                            app:ccp_showArrow="true"
+                            app:ccp_showFlag="true"
+                            android:gravity="center"
+                            app:ccp_showFullName="false"
+                            app:ccp_showNameCode="false"
+                            app:ccp_showPhoneCode="true"
+                            app:ccp_textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="28dp"
+                            android:layout_marginHorizontal="4dp"
+                            android:background="#E0E0E0" />
+
+                        <EditText
+                            android:id="@+id/edNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:hint="রবি/এয়ারটেল নাম্বার"
+                            android:inputType="phone"
+                            android:maxLength="12"
+                            android:paddingEnd="12dp"
+                            android:textColor="#212121"
+                            android:textColorHint="#BDBDBD"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <!-- Error text -->
+                    <TextView
+                        android:id="@+id/tvError"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="4dp"
+                        android:text="অনুগ্রহপূর্বক সঠিক রবি/এয়ারটেল নাম্বার দিন।"
+                        android:textColor="#F44336"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <!-- Send OTP button -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btnSend"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardCornerRadius="14dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/rounded_button"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="📩  ওটিপি পাঠান"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Terms note -->
+                    <TextView
+                        android:id="@+id/rateV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="রবি/এয়ারটেল: ৳২.০০+VAT+SD প্রতিদিন"
+                        android:textColor="#BDBDBD"
+                        android:textSize="11sp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+
+                <!-- ─── PANEL 2: OTP VERIFY ─────────────────────────── -->
+                <LinearLayout
+                    android:id="@+id/verifyLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <!-- Back to phone -->
+                    <LinearLayout
+                        android:id="@+id/btnBackToPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="← "
+                            android:textColor="#00C853"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="নাম্বার পরিবর্তন করুন"
+                            android:textColor="#00C853"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!-- Section title -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OTP ভেরিফিকেশন"
+                        android:textColor="#212121"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/otpText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="28dp"
+                        android:lineSpacingExtra="3dp"
+                        android:text="আপনার নাম্বারে ৬ ডিজিটের OTP পাঠানো হয়েছে"
+                        android:textColor="#757575"
+                        android:textSize="13sp" />
+
+                    <!-- OTP input label -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:text="ওটিপি কোড"
+                        android:textColor="#212121"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <!-- OTP view -->
+                    <com.mukeshsolanki.OtpView
+                        android:id="@+id/edVerCode"
+                        style="@style/OtpWidget.OtpView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                        android:inputType="number"
+                        android:textColor="#212121"
+                        app:OtpHideLineWhenFilled="false"
+                        app:OtpItemCount="6"
+                        app:OtpItemRadius="10dp"
+                        app:OtpItemSpacing="8dp"
+                        app:OtpLineColor="#00C853"
+                        app:OtpState_filled="true"
+                        app:OtpViewType="rectangle" />
+
+                    <!-- OTP error -->
+                    <TextView
+                        android:id="@+id/tvOtpError"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="অনুগ্রহপূর্বক সঠিক ৬ ডিজিটের OTP দিন"
+                        android:textColor="#F44336"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <!-- Countdown timer -->
+                    <RelativeLayout
+                        android:id="@+id/progress_layout"
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:visibility="visible">
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/circular_shape"
+                            android:indeterminate="false"
+                            android:progressDrawable="@drawable/circular_progress_bar" />
+
+                        <TextView
+                            android:id="@+id/percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="30"
+                            android:textColor="#00897B"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <!-- Verify button -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btnVerify"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:layout_marginTop="12dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardCornerRadius="14dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/rounded_button"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="✅  ভেরিফাই করুন"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Resend row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="OTP পান নি? "
+                            android:textColor="#757575"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/againSendOtp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:text="আবার পাঠান"
+                            android:textColor="#00C853"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

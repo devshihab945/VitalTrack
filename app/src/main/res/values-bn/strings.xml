@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ভাইটালট্র্যাক</string>
+    <string name="skip">এড়িয়ে যান</string>
+    <string name="next">পরবর্তী →</string>
+    <string name="get_started">শুরু করুন</string>
+    <string name="save_profile">প্রোফাইল সেভ করুন</string>
+    <string name="edit_profile">প্রোফাইল সম্পাদনা</string>
+    <string name="save_changes">পরিবর্তন সেভ করুন</string>
+    <string name="cancel">বাতিল</string>
+    <string name="calculate">হিসাব করুন</string>
+    <string name="calculate_bmi">BMI হিসাব করুন</string>
+    <string name="calculate_daily_goal">দৈনিক লক্ষ্য হিসাব করুন</string>
+    <string name="calculate_calories">ক্যালোরি হিসাব করুন</string>
+    <string name="add_medicine">ওষুধ যোগ করুন</string>
+    <string name="add_record">রেকর্ড যোগ করুন</string>
+    <string name="full_name">পুরো নাম</string>
+    <string name="age_years">বয়স (বছর)</string>
+    <string name="height_cm">উচ্চতা (সেমি)</string>
+    <string name="weight_kg">ওজন (কেজি)</string>
+    <string name="blood_type">রক্তের গ্রুপ</string>
+    <string name="enter_height">উচ্চতা লিখুন</string>
+    <string name="enter_weight">ওজন লিখুন</string>
+    <string name="enter_age">বয়স লিখুন</string>
+    <string name="medicine_name">ওষুধের নাম</string>
+    <string name="dosage">ডোজ (যেমন, ৫০০mg)</string>
+    <string name="channel_id">medicine_reminder</string>
+    <string name="channel_name">ওষুধের রিমাইন্ডার</string>
+    <string-array name="blood_types">
+        <item>রক্তের গ্রুপ বেছে নিন</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="gender_options">
+        <item>লিঙ্গ বেছে নিন</item>
+        <item>পুরুষ</item>
+        <item>মহিলা</item>
+    </string-array>
+    <string-array name="activity_levels">
+        <item>কার্যকলাপের স্তর বেছে নিন</item>
+        <item>নিষ্ক্রিয় (সামান্য/কোনো ব্যায়াম নেই)</item>
+        <item>সামান্য সক্রিয় (সপ্তাহে ১-৩ দিন)</item>
+        <item>মাঝারি সক্রিয় (সপ্তাহে ৩-৫ দিন)</item>
+        <item>অত্যন্ত সক্রিয় (সপ্তাহে ৬-৭ দিন)</item>
+        <item>অতি সক্রিয় (দিনে দুইবার)</item>
+    </string-array>
+    <string name="on">চালু</string>
+    <string name="off">বন্ধ</string>
+    <string name="water_alarm_channel_id">water_alarm_channel</string>
+    <string name="water_alarm_channel_name">পানি পানের অ্যালার্ম</string>
+
+    <!-- Language switcher -->
+    <string name="lang_switch_to_bn">বাংলা</string>
+    <string name="lang_switch_to_en">English</string>
+
+    <!-- Home Fragment -->
+    <string name="greeting_morning">শুভ সকাল</string>
+    <string name="greeting_afternoon">শুভ অপরাহ্ন</string>
+    <string name="greeting_evening">শুভ সন্ধ্যা</string>
+    <string name="subtitle_stay_healthy">সুস্থ থাকুন আজকে!</string>
+    <string name="health_tip_title">আজকের স্বাস্থ্য টিপস</string>
+    <string name="bmi_label">BMI</string>
+    <string name="water_label">পানি</string>
+    <string name="steps_label">পদক্ষেপ</string>
+    <string name="calories_label">ক্যালোরি</string>
+    <string name="burned_label">পোড়া</string>
+    <string name="quick_actions_label">দ্রুত অ্যাকশন</string>
+    <string name="of_goal">% লক্ষ্যের</string>
+    <string name="not_set">সেট করা হয়নি</string>
+    <string name="normal">স্বাভাবিক</string>
+    <string name="underweight">কম ওজন</string>
+    <string name="overweight">অতিরিক্ত ওজন</string>
+    <string name="obese">স্থূল</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_title">প্রোফাইল</string>
+    <string name="personal_info">ব্যক্তিগত তথ্য</string>
+    <string name="name_label">নাম</string>
+    <string name="age_label">বয়স</string>
+    <string name="height_label">উচ্চতা</string>
+    <string name="weight_label">ওজন</string>
+    <string name="health_tracker_user">হেলথ ট্র্যাকার ব্যবহারকারী</string>
+    <string name="unsubscribe">🚫 আনসাবস্ক্রাইব</string>
+
+    <!-- Step Counter Fragment -->
+    <string name="step_counter_title">পদক্ষেপ গণনা</string>
+    <string name="walking_tab">🚶 হাঁটা</string>
+    <string name="running_tab">🏃 দৌড়</string>
+    <string name="walking_today">আজকের হাঁটা</string>
+    <string name="of_goal_steps">লক্ষ্যের</string>
+    <string name="edit_label">✎ সম্পাদনা</string>
+    <string name="start_walking">▶  হাঁটা শুরু</string>
+    <string name="start_running">▶  দৌড় শুরু</string>
+    <string name="stop_walking">■  হাঁটা থামান</string>
+    <string name="stop_running">■  দৌড় থামান</string>
+    <string name="distance_label">দূরত্ব</string>
+    <string name="time_label">সময়</string>
+    <string name="weekly_activity">সাপ্তাহিক কার্যকলাপ</string>
+    <string name="tap_bar_detail">বিস্তারিত দেখতে বার ট্যাপ করুন</string>
+
+    <!-- Medicine Reminder -->
+    <string name="medicine_reminder_title">ওষুধের রিমাইন্ডার</string>
+    <string name="your_medicines">আপনার ওষুধসমূহ</string>
+    <string name="no_medicines">এখনো কোনো ওষুধ যোগ করা হয়নি।\n+ বাটন ট্যাপ করুন।</string>
+
+    <!-- Quick Actions -->
+    <string name="qa_medicine_reminder">ওষুধের রিমাইন্ডার</string>
+    <string name="qa_step_counter">পদক্ষেপ গণনা</string>
+    <string name="qa_water_alarm">পানি পানের অ্যালার্ম</string>
+    <string name="qa_water_intake">পানি পান</string>
+    <string name="qa_calorie_calculator">ক্যালোরি হিসাবকারী</string>
+    <string name="qa_calculate_bmi">BMI হিসাব</string>
+    <string name="qa_blood_pressure">রক্তচাপ</string>
+    <string name="qa_blood_sugar">রক্তের শর্করা</string>
+    <string name="qa_ideal_weight">আদর্শ ওজন</string>
+    <string name="qa_calories_burned">পোড়া ক্যালোরি</string>
+
+    <!-- Language dialog -->
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা</string>
+
+    <!-- Step Counter Fragment -->
+    <string name="of_n_steps_goal">%1$s পদক্ষেপ লক্ষ্যের মধ্যে</string>
+    <string name="stop_walking_btn">⏹  হাঁটা থামান</string>
+    <string name="stop_running_btn">⏹  দৌড় থামান</string>
+    <string name="start_walking_btn">▶  হাঁটা শুরু</string>
+    <string name="start_running_btn">▶  দৌড় শুরু</string>
+    <string name="walk_label">হাঁটা</string>
+    <string name="run_label">দৌড়</string>
+    <string name="today_label">আজকে</string>
+    <string name="steps_goal_label">পদক্ষেপ লক্ষ্য</string>
+    <string name="achieved_label">অর্জিত</string>
+    <string name="permission_required">⚠️  অনুমতি প্রয়োজন</string>
+    <string name="permission_desc">পদক্ষেপ গণনার জন্য অ্যাক্টিভিটি রিকগনিশন অনুমতি দরকার।</string>
+    <string name="grant_permission">অনুমতি দিন</string>
+    <string name="of_goal_label">লক্ষ্যের মধ্যে</string>
+    <string name="edit_btn">✎ সম্পাদনা</string>
+    <string name="running_today">আজকের দৌড়</string>
+
+    <!-- BMI Calculator -->
+    <string name="bmi_calculator_title">BMI হিসাবকারী</string>
+    <string name="your_bmi">আপনার BMI</string>
+    <string name="bmi_under">কম\n18.5</string>
+    <string name="bmi_normal_range">স্বাভাবিক\n18.5-24.9</string>
+    <string name="bmi_over">বেশি\n25-29.9</string>
+    <string name="bmi_obese_range">স্থূল\n30+</string>
+    <string name="feet_inch">ফুট ও ইঞ্চি</string>
+    <string name="cm_label">সেমি</string>
+    <string name="gender_label">লিঙ্গ</string>
+    <string name="activity_level_label">কার্যকলাপের স্তর</string>
+
+    <!-- Calorie Calculator -->
+    <string name="calorie_calculator_title">ক্যালোরি হিসাবকারী</string>
+    <string name="daily_calorie_needs">দৈনিক ক্যালোরির প্রয়োজন</string>
+    <string name="maintain_weight">ওজন ধরে রাখতে:</string>
+    <string name="mild_weight_loss">হালকা ওজন কমাতে:</string>
+    <string name="weight_loss">ওজন কমাতে:</string>
+    <string name="weight_gain">ওজন বাড়াতে:</string>
+
+    <!-- Calories Burned -->
+    <string name="calories_burned_title">পোড়া ক্যালোরি</string>
+    <string name="exercise_burned">ব্যায়ামে পোড়া</string>
+
+    <!-- Blood Sugar -->
+    <string name="blood_sugar_title">রক্তের শর্করা ট্র্যাকার</string>
+    <string name="latest_blood_sugar">🩸  সর্বশেষ রক্তের শর্করা</string>
+    <string name="normal_range_sugar">স্বাভাবিক মাত্রা: ৭০-১৪০ mg/dL</string>
+    <string name="history_label">ইতিহাস</string>
+    <string name="no_records">এখনো কোনো রেকর্ড নেই। + ট্যাপ করুন।</string>
+
+    <!-- Blood Pressure -->
+    <string name="blood_pressure_title">রক্তচাপ লগ</string>
+    <string name="latest_reading">সর্বশেষ রিডিং</string>
+    <string name="no_data">কোনো তথ্য নেই</string>
+    <string name="no_records_bp">এখনো কোনো রেকর্ড নেই। + ট্যাপ করুন।</string>
+
+    <!-- Water Intake -->
+    <string name="water_intake_title">পানি পান</string>
+    <string name="daily_water_intake">দৈনিক পানি পান</string>
+    <string name="todays_progress">আজকের অগ্রগতি</string>
+    <string name="water_glasses_unit">পানির গ্লাস (প্রতিটি ২৫০মিলি)</string>
+    <string name="about_n_glasses">প্রায় %1$d গ্লাস (২৫০মিলি প্রতিটি)</string>
+
+    <!-- Water Intake Alarm -->
+    <string name="water_intake_alarm_title">পানি পানের অ্যালার্ম</string>
+    <string name="no_water_alarms">💧 এখনো কোনো অ্যালার্ম নেই\n+ ট্যাপ করে প্রথম রিমাইন্ডার যোগ করুন</string>
+
+    <!-- Ideal Weight -->
+    <string name="ideal_weight_title">আদর্শ ওজন</string>
+    <string name="your_ideal_weight_range">আপনার আদর্শ ওজনের পরিসীমা</string>
+    <string name="based_on_divine_male">Devine ফর্মুলা অনুযায়ী (পুরুষ)</string>
+    <string name="based_on_divine_female">Devine ফর্মুলা অনুযায়ী (মহিলা)</string>
+
+    <!-- Profile Setup -->
+    <string name="profile_setup_title">প্রোফাইল সেটআপ</string>
+    <string name="personal_info_fill">ভালো ট্র্যাকিংয়ের জন্য আপনার তথ্য দিন</string>
+    <string name="blood_group_label">রক্তের গ্রুপ</string>
+    <string name="terms_agree">সেভ করে আপনি আমাদের শর্তাবলি ও গোপনীয়তা নীতিতে সম্মত হচ্ছেন।</string>
+
+    <!-- Onboarding -->
+    <string name="by_continuing">চালিয়ে যেতে আপনি আমাদের শর্তাবলি ও গোপনীয়তা নীতিতে সম্মত হচ্ছেন</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">আপনার স্বাস্থ্য ট্র্যাক করুন, ভালো থাকুন।</string>
+
+    <!-- Profile Fragment extra -->
+    <string name="premium_active">সক্রিয়</string>
+    <string name="premium_member">প্রিমিয়াম সদস্য</string>
+    <string name="premium_price">রবি/এয়ারটেল: ৳২.০০+VAT+SD প্রতিদিন</string>
+
+    <!-- Dialogs -->
+    <string name="add_blood_pressure">রক্তচাপ যোগ করুন</string>
+    <string name="add_blood_sugar">রক্তের শর্করা যোগ করুন</string>
+    <string name="save_label">সেভ</string>
+    <string name="reminder_time">রিমাইন্ডারের সময়</string>
+    <string name="pre_reminders">আগাম রিমাইন্ডার</string>
+    <string name="remind_1hr">১ ঘণ্টা আগে মনে করিয়ে দিন</string>
+    <string name="remind_10min">১০ মিনিট আগে মনে করিয়ে দিন</string>
+    <string name="hour_label">ঘণ্টা</string>
+    <string name="minute_label">মিনিট</string>
+    <string name="am_pm_label">AM/PM</string>
+
+    <!-- Misc -->
+    <string name="kg_m2">kg/m²</string>
+    <string name="steps_unit">পদক্ষেপ</string>
+    <string name="kcal_unit">kcal</string>
+    <string name="l_unit">লি</string>
+    <string name="login_tips"><![CDATA[আপনার স্বাস্থ্য, আপনার যাত্রা। পদক্ষেপ, পানি, BMI, ক্যালোরি সব কিছু — এক জায়গায় ট্র্যাক করুন।]]></string>
+    <string name="healthfit_tracker_details">🌿 সুস্বাস্থ্যের জন্য আপনার স্মার্ট সঙ্গী 🌿
+এখন সব প্রয়োজনীয় স্বাস্থ্যসেবা একটি অ্যাপেই পাওয়া যাচ্ছে! আমাদের আধুনিক VitalTrack – Health Monitor অ্যাপ্লিকেশন দিয়ে আপনার শরীর, স্বাস্থ্য এবং দৈনন্দিন ফিটনেস বুদ্ধিমত্তার সাথে পরিচালনা করুন।</string>
+
+</resources>
