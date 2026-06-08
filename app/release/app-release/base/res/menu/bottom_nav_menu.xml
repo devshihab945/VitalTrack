@@ -5,30 +5,30 @@
 Ÿitem">
 *http://schemas.android.com/apk/res/androidtitleHome(áƒ„"t
 *http://schemas.android.com/apk/res/androidicon@drawable/ic_nav_home"(‚€„2 
-æƒ ødrawable/ic_nav_home0"a
+çƒ ødrawable/ic_nav_home0"a
 *http://schemas.android.com/apk/res/androidid@+id/nav_home"(Ğ„2
-‘„¤øid/nav_home0 *Á
+’„¤øid/nav_home0 *Á
 ¸item"C
 *http://schemas.android.com/apk/res/androidtitle	Reminders(áƒ„"~
 *http://schemas.android.com/apk/res/androidicon@drawable/ic_nav_reminders"(‚€„2%
-#éƒ ødrawable/ic_nav_reminders0"k
+#êƒ ødrawable/ic_nav_reminders0"k
 *http://schemas.android.com/apk/res/androidid@+id/nav_reminders"(Ğ„2
-“„¤øid/nav_reminders0%*¼
+”„¤øid/nav_reminders0%*¼
 ³item"B
 *http://schemas.android.com/apk/res/androidtitleActivity(áƒ„"|
 *http://schemas.android.com/apk/res/androidicon@drawable/ic_nav_activity"(‚€„2$
-"åƒ ødrawable/ic_nav_activity0"i
+"æƒ ødrawable/ic_nav_activity0"i
 *http://schemas.android.com/apk/res/androidid@+id/nav_activity"(Ğ„2
-„¤øid/nav_activity0$*¥
+‘„¤øid/nav_activity0$*¥
 œitem"?
 *http://schemas.android.com/apk/res/androidtitleWater(áƒ„"n
 *http://schemas.android.com/apk/res/androidicon@drawable/ic_water"(‚€„2
-òƒ ødrawable/ic_water0"c
+óƒ ødrawable/ic_water0"c
 *http://schemas.android.com/apk/res/androidid@+id/nav_water"(Ğ„2
-”„¤øid/nav_water0!*·
+•„¤øid/nav_water0!*·
 ®item"A
 *http://schemas.android.com/apk/res/androidtitleProfile(áƒ„"z
 *http://schemas.android.com/apk/res/androidicon@drawable/ic_nav_profile"(‚€„2#
-!èƒ ødrawable/ic_nav_profile0"g
+!éƒ ødrawable/ic_nav_profile0"g
 *http://schemas.android.com/apk/res/androidid@+id/nav_profile"(Ğ„2
-’„¤øid/nav_profile0#B
+“„¤øid/nav_profile0#B

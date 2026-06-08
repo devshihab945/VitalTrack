@@ -5,11 +5,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-
-    <uses-feature
-        android:name="android.hardware.sensor.stepcounter"
-        android:required="false" />
+    <!-- REMOVED: android.permission.ACTIVITY_RECOGNITION -->
+    <!-- REMOVED: android.hardware.sensor.stepcounter uses-feature -->
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -21,7 +18,7 @@
     <uses-permission
         android:name="android.permission.FOREGROUND_SERVICE"
         tools:ignore="ForegroundServicesPolicy" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
+    <!-- REMOVED: android.permission.FOREGROUND_SERVICE_HEALTH -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
 
@@ -53,7 +50,7 @@
         <activity android:name=".activities.BmiCalculatorActivity" android:exported="false" />
         <activity android:name=".activities.IdealWeightActivity" android:exported="false" />
         <activity android:name=".activities.WaterIntakeActivity" android:exported="false" />
-        <activity android:name=".activities.StepCounterActivity" android:exported="false" />
+        <!-- REMOVED: StepCounterActivity -->
         <activity android:name=".activities.CaloriesBurnedActivity" android:exported="false" />
         <activity android:name=".activities.CalorieCalculatorActivity" android:exported="false" />
         <activity android:name=".activities.BloodPressureActivity" android:exported="false" />
@@ -80,11 +77,7 @@
             android:exported="false"
             android:foregroundServiceType="mediaPlayback" />
 
-        <!-- Step Counter Foreground Service -->
-        <service
-            android:name=".services.StepCounterService"
-            android:exported="false"
-            android:foregroundServiceType="health" />
+        <!-- REMOVED: StepCounterService (foregroundServiceType="health") -->
 
     </application>
 

@@ -10,7 +10,7 @@ background@color/primary"(Ô„2
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"(õ„2:0ÿÿÿÿÿÿÿÿÿ"Y
 *http://schemas.android.com/apk/res/androidid	@+id/main"(Ğ„2
-Ğƒ¤øid/main0*è
+Ñƒ¤øid/main0*è
 ßRelativeLayout"h
 *http://schemas.android.com/apk/res/android
 background@color/white"(Ô„2
@@ -23,7 +23,7 @@ background@color/white"(Ô„2
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"(õ„2:0ÿÿÿÿÿÿÿÿÿ"u
 *http://schemas.android.com/apk/res/androidid@+id/fragment_container"(Ğ„2!
-ş‚¤øid/fragment_container06*×
+ÿ‚¤øid/fragment_container06*×
 ÎAcom.google.android.material.bottomnavigation.BottomNavigationView"h
 *http://schemas.android.com/apk/res/android
 background@color/white"(Ô„2

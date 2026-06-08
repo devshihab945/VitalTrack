@@ -10,7 +10,7 @@ background@color/primary"(Ô„2
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"(õ„2:0ÿÿÿÿÿÿÿÿÿ"Y
 *http://schemas.android.com/apk/res/androidid	@+id/main"(Ğ„2
-Ğƒ¤øid/main0*¿Ñ
+Ñƒ¤øid/main0*¿Ñ
 µÑ
 ScrollView"r
 *http://schemas.android.com/apk/res/android
@@ -47,7 +47,7 @@ background(?attr/selectableItemBackgroundBorderless"#(Ô„25
 *http://schemas.android.com/apk/res/androidlayout_height40dp"#(õ„2:hP"L
 *http://schemas.android.com/apk/res/android	focusabletrue"#(Ú„2:@"_
 *http://schemas.android.com/apk/res/androidid@+id/iv_back"#(Ğ„2
-¬ƒ¤ø
+­ƒ¤ø
 id/iv_back0#/*º
 ±TextView"X
 *http://schemas.android.com/apk/res/androidlayout_centerInParenttrue",(ƒ„2:@"`
@@ -91,7 +91,7 @@ background@drawable/circle_avatar"K(Ô„2"
 *http://schemas.android.com/apk/res/androidlayout_height90dp"K(õ„2:h´"P
 *http://schemas.android.com/apk/res/androidclipToOutlinetrue"K(¨Œ„2:@"o
 *http://schemas.android.com/apk/res/androidid@+id/iv_avatar_image"K(Ğ„2
-«ƒ¤øid/iv_avatar_image0K9*Á
+¬ƒ¤øid/iv_avatar_image0K9*Á
 ¸TextView"~
 *http://schemas.android.com/apk/res/android
 background@drawable/circle_avatar"V(Ô„2"
@@ -103,7 +103,7 @@ background@drawable/circle_avatar"V(Ô„2"
 *http://schemas.android.com/apk/res/android	textColor@color/white"V(˜„2
 ã‡˜øcolor/white0"u
 *http://schemas.android.com/apk/res/androidid@+id/tv_avatar_initials"V(Ğ„2!
-Š†¤øid/tv_avatar_initials0";
+‹†¤øid/tv_avatar_initials0";
 *http://schemas.android.com/apk/res/androidtextJD(Ï‚„"L
 *http://schemas.android.com/apk/res/android	textStylebold"V(—„2:8V8* 	
 —	RelativeLayout"†
@@ -132,7 +132,7 @@ $¤ ødrawable/circle_edit_badge0"L
 ã‡˜øcolor/white0"T
 *http://schemas.android.com/apk/res/androidlayout_marginTop10dp"r(ø„2:h"o
 *http://schemas.android.com/apk/res/androidid@+id/tv_profile_name"r(Ğ„2
-Â†¤øid/tv_profile_name0"A
+Ã†¤øid/tv_profile_name0"A
 *http://schemas.android.com/apk/res/androidtextJohn Doe(Ï‚„"L
 *http://schemas.android.com/apk/res/android	textStylebold"r(—„2:8r4*Õ
 ÌTextView"`
@@ -193,7 +193,7 @@ paddingTop16dp"„(×„2:h *è
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"«(õ„2:0şÿÿÿÿÿÿÿÿ"W
 *http://schemas.android.com/apk/res/android	inputTypetextPersonName"«( „„2:8a"j
 *http://schemas.android.com/apk/res/androidid@+id/et_full_name"«(Ğ„2
-Û‚¤øid/et_full_name0«>¤8*¹
+Ü‚¤øid/et_full_name0«>¤8*¹
 ¯TextView"W
 *http://schemas.android.com/apk/res/androidlayout_marginBottom6dp"µ(ú„2:h"a
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"µ(ô„2:0şÿÿÿÿÿÿÿÿ"b
@@ -215,7 +215,7 @@ paddingTop16dp"„(×„2:h *è
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"Â(õ„2:0şÿÿÿÿÿÿÿÿ"O
 *http://schemas.android.com/apk/res/android	inputTypenumber"Â( „„2:8"^
 *http://schemas.android.com/apk/res/androidid@+id/et_age"Â(Ğ„2
-Ï‚¤ø	id/et_age0Â6»8*¿
+Ğ‚¤ø	id/et_age0Â6»8*¿
 µTextView"W
 *http://schemas.android.com/apk/res/androidlayout_marginBottom8dp"Ì(ú„2:h"a
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"Ì(ô„2:0şÿÿÿÿÿÿÿÿ"b
@@ -239,7 +239,7 @@ horizontal"Ô(Ä„2:0 *Ô
 ÊTextView"
 *http://schemas.android.com/apk/res/android
 background@drawable/rounded_button"à(Ô„2#
-!€… ødrawable/rounded_button0"M
+!… ødrawable/rounded_button0"M
 *http://schemas.android.com/apk/res/androidgravitycenter"à(¯„2:8"O
 *http://schemas.android.com/apk/res/androidlayout_width0dp"à(ô„2:h"b
 *http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"à(õ„2:0ÿÿÿÿÿÿÿÿÿ"M
@@ -248,7 +248,7 @@ background@drawable/rounded_button"à(Ô„2#
 ã‡˜øcolor/white0"Q
 *http://schemas.android.com/apk/res/androidlayout_weight1"à(ƒ„2:  €?"l
 *http://schemas.android.com/apk/res/androidid@+id/btn_unit_feet"à(Ğ„2
-Ó¤øid/btn_unit_feet0"m
+Ô¤øid/btn_unit_feet0"m
 *http://schemas.android.com/apk/res/androidtext@string/feet_inch"à(Ï‚„2
 é€Èøstring/feet_inch0"M
 *http://schemas.android.com/apk/res/android	textStylebold"à(—„2:8à4*ã
@@ -264,7 +264,7 @@ background@android:color/transparent"ì(Ô„2$
 Ü‡˜øcolor/text_secondary0"Q
 *http://schemas.android.com/apk/res/androidlayout_weight1"ì(ƒ„2:  €?"h
 *http://schemas.android.com/apk/res/androidid@+id/btn_unit_cm"ì(Ğ„2
-Ò¤øid/btn_unit_cm0"k
+Ó¤øid/btn_unit_cm0"k
 *http://schemas.android.com/apk/res/androidtext@string/cm_label"ì(Ï‚„2
 ×€Èøstring/cm_label0"M
 *http://schemas.android.com/apk/res/android	textStylebold"ì(—„2:8ì4Ô+*æ
@@ -277,13 +277,13 @@ visibilitygone"ö(Ü„2:0"7
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"ö(õ„2:0şÿÿÿÿÿÿÿÿ"?style@style/InputField"ö2
 °‚Ìøstyle/InputField0ÿÿ"l
 *http://schemas.android.com/apk/res/androidid@+id/til_height_cm"ö(Ğ„2
-è…¤øid/til_height_cm0*É
+é…¤øid/til_height_cm0*É
 ¿7com.google.android.material.textfield.TextInputEditText"a
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"ü(ô„2:0ÿÿÿÿÿÿÿÿÿ"b
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"ü(õ„2:0şÿÿÿÿÿÿÿÿ"W
 *http://schemas.android.com/apk/res/android	inputTypenumberDecimal"ü( „„2:8‚@"d
 *http://schemas.android.com/apk/res/androidid@+id/et_height"ü(Ğ„2
-Ü‚¤øid/et_height0ü=ö/*¹
+İ‚¤øid/et_height0ü=ö/*¹
 ¯LinearLayout"X
 *http://schemas.android.com/apk/res/androidlayout_marginBottom16dp"…(ú„2:h "Q
 *http://schemas.android.com/apk/res/android
@@ -293,7 +293,7 @@ visibilityvisible"…(Ü„2:0 "a
 *http://schemas.android.com/apk/res/androidorientation
 horizontal"…(Ä„2:0 "v
 *http://schemas.android.com/apk/res/androidid@+id/layout_height_feet"…(Ğ„2!
-»ƒ¤øid/layout_height_feet0*ç
+¼ƒ¤øid/layout_height_feet0*ç
 İ5com.google.android.material.textfield.TextInputLayout"T
 *http://schemas.android.com/apk/res/androidlayout_marginEnd8dp"(¶‡„2:h"7
 *http://schemas.android.com/apk/res/androidhint(Ğ‚„"O
@@ -306,7 +306,7 @@ horizontal"…(Ä„2:0 "v
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"“(õ„2:0şÿÿÿÿÿÿÿÿ"O
 *http://schemas.android.com/apk/res/android	inputTypenumber"“( „„2:8"n
 *http://schemas.android.com/apk/res/androidid@+id/et_height_feet"“(Ğ„2
-Ş‚¤øid/et_height_feet0“:)*ñ
+ß‚¤øid/et_height_feet0“:)*ñ
 ç5com.google.android.material.textfield.TextInputLayout"7
 *http://schemas.android.com/apk/res/androidhint(Ğ‚„"O
 *http://schemas.android.com/apk/res/androidlayout_width0dp"œ(ô„2:h"b
@@ -319,7 +319,7 @@ horizontal"…(Ä„2:0 "v
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"¢(õ„2:0şÿÿÿÿÿÿÿÿ"W
 *http://schemas.android.com/apk/res/android	inputTypenumberDecimal"¢( „„2:8‚@"n
 *http://schemas.android.com/apk/res/androidid@+id/et_height_inch"¢(Ğ„2
-ß‚¤øid/et_height_inch0¢Aœ)…2*¹
+à‚¤øid/et_height_inch0¢Aœ)…2*¹
 ¯TextView"W
 *http://schemas.android.com/apk/res/androidlayout_marginBottom6dp"­(ú„2:h"a
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"­(ô„2:0şÿÿÿÿÿÿÿÿ"b
@@ -341,7 +341,7 @@ horizontal"…(Ä„2:0 "v
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"º(õ„2:0şÿÿÿÿÿÿÿÿ"W
 *http://schemas.android.com/apk/res/android	inputTypenumberDecimal"º( „„2:8‚@"d
 *http://schemas.android.com/apk/res/androidid@+id/et_weight"º(Ğ„2
-é‚¤øid/et_weight0º=³8*É
+ê‚¤øid/et_weight0º=³8*É
 ¿TextView"W
 *http://schemas.android.com/apk/res/androidlayout_marginBottom6dp"Ä(ú„2:h"a
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"Ä(ô„2:0şÿÿÿÿÿÿÿÿ"b
@@ -361,7 +361,7 @@ background@drawable/card_white_rounded"Ì(Ô„2'
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"Ì(ô„2:0ÿÿÿÿÿÿÿÿÿ"R
 *http://schemas.android.com/apk/res/androidlayout_height52dp"Ì(õ„2:hh"v
 *http://schemas.android.com/apk/res/androidid@+id/spinner_blood_type"Ì(Ğ„2!
-¨…¤øid/spinner_blood_type0Ì.*„
+©…¤øid/spinner_blood_type0Ì.*„
 ú!androidx.cardview.widget.CardView"M
 *http://schemas.android.com/apk/res/android	clickabletrue"Õ(å„2:@"a
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"Õ(ô„2:0ÿÿÿÿÿÿÿÿÿ"R
@@ -370,11 +370,11 @@ background@drawable/card_white_rounded"Ì(Ô„2'
 'http://schemas.android.com/apk/res-autocardCornerRadius12dp"Õ(¯ø2:h"M
 *http://schemas.android.com/apk/res/android	focusabletrue"Õ(Ú„2:@"r
 *http://schemas.android.com/apk/res/androidid@+id/btn_save_profile"Õ(Ğ„2
-Í¤øid/btn_save_profile0*æ
+Î¤øid/btn_save_profile0*æ
 ÜLinearLayout"
 *http://schemas.android.com/apk/res/android
 background@drawable/rounded_button"Ü(Ô„2#
-!€… ødrawable/rounded_button0"M
+!… ødrawable/rounded_button0"M
 *http://schemas.android.com/apk/res/androidgravitycenter"Ü(¯„2:8"a
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"Ü(ô„2:0ÿÿÿÿÿÿÿÿÿ"b
 *http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"Ü(õ„2:0ÿÿÿÿÿÿÿÿÿ"U

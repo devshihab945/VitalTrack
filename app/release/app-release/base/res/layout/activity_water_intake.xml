@@ -10,7 +10,7 @@ background@color/primary"(Ô„2
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"(õ„2:0ÿÿÿÿÿÿÿÿÿ"Y
 *http://schemas.android.com/apk/res/androidid	@+id/main"(Ğ„2
-Ğƒ¤øid/main0*©…
+Ñƒ¤øid/main0*©…
 Ÿ…
 ScrollView"r
 *http://schemas.android.com/apk/res/android
@@ -41,7 +41,7 @@ background@drawable/bg_toolbar"(Ô„2
 *http://schemas.android.com/apk/res/androidlayout_width40dp" (ô„2:hP"Q
 *http://schemas.android.com/apk/res/androidlayout_height40dp" (õ„2:hP"_
 *http://schemas.android.com/apk/res/androidid@+id/iv_back" (Ğ„2
-¬ƒ¤ø
+­ƒ¤ø
 id/iv_back0 +*·
 ®TextView"X
 *http://schemas.android.com/apk/res/androidlayout_centerInParenttrue")(ƒ„2:@"`
@@ -69,7 +69,7 @@ id/iv_back0 +*·
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"=(õ„2:0şÿÿÿÿÿÿÿÿ"V
 *http://schemas.android.com/apk/res/android	inputTypenumberDecimal"=( „„2:8‚@"c
 *http://schemas.android.com/apk/res/androidid@+id/et_weight"=(Ğ„2
-é‚¤øid/et_weight0=97,*‡
+ê‚¤øid/et_weight0=97,*‡
 ş!androidx.cardview.widget.CardView"`
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"E(ô„2:0ÿÿÿÿÿÿÿÿÿ"Q
 *http://schemas.android.com/apk/res/androidlayout_height54dp"E(õ„2:hl"M
@@ -80,14 +80,14 @@ id/iv_back0 +*·
 ŠLinearLayout"€
 *http://schemas.android.com/apk/res/android
 background@drawable/rounded_button"K(Ô„2#
-!€… ødrawable/rounded_button0"L
+!… ødrawable/rounded_button0"L
 *http://schemas.android.com/apk/res/androidgravitycenter"K(¯„2:8"`
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"K(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"K(õ„2:0ÿÿÿÿÿÿÿÿÿ*ã
 ÚTextView"€
 *http://schemas.android.com/apk/res/android
 background@drawable/rounded_button"W(Ô„2#
-!€… ødrawable/rounded_button0"L
+!… ødrawable/rounded_button0"L
 *http://schemas.android.com/apk/res/androidgravitycenter"W(¯„2:8"`
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"W(ô„2:0ÿÿÿÿÿÿÿÿÿ"Q
 *http://schemas.android.com/apk/res/androidlayout_height52dp"W(õ„2:hh"L
@@ -95,7 +95,7 @@ background@drawable/rounded_button"W(Ô„2#
 *http://schemas.android.com/apk/res/android	textColor@color/white"W(˜„2
 ã‡˜øcolor/white0"i
 *http://schemas.android.com/apk/res/androidid@+id/tv_calculate"W(Ğ„2
-”†¤øid/tv_calculate0"S
+•†¤øid/tv_calculate0"S
 *http://schemas.android.com/apk/res/androidlayout_gravitycenter"W(³„2:8"‚
 *http://schemas.android.com/apk/res/androidtext@string/calculate_daily_goal"W(Ï‚„2'
 %Ä€Èøstring/calculate_daily_goal0"L
@@ -110,7 +110,7 @@ visibilitygone"e(Ü„2:0"`
 *http://schemas.android.com/apk/res/androidlayout_marginTop24dp"e(ø„2:h0"R
 'http://schemas.android.com/apk/res-autocardCornerRadius20dp"e(¯ø2:h("g
 *http://schemas.android.com/apk/res/androidid@+id/card_result"e(Ğ„2
-è¤øid/card_result0*ì
+é¤øid/card_result0*ì
 ãLinearLayout"L
 *http://schemas.android.com/apk/res/androidgravitycenter"l(¯„2:8"K
 *http://schemas.android.com/apk/res/androidpadding28dp"l(Õ„2:h8"`
@@ -141,7 +141,7 @@ visibilitygone"e(Ü„2:0"`
 *http://schemas.android.com/apk/res/android	textColor@color/accent_blue"„(˜„2
 š€˜øcolor/accent_blue0"p
 *http://schemas.android.com/apk/res/androidid@+id/tv_water_result"„(Ğ„2
-×†¤øid/tv_water_result0">
+Ø†¤øid/tv_water_result0">
 *http://schemas.android.com/apk/res/androidtext2.5 L(Ï‚„"M
 *http://schemas.android.com/apk/res/android	textStylebold"„(—„2:8„4*
 …TextView"a
@@ -151,7 +151,7 @@ visibilitygone"e(Ü„2:0"`
 *http://schemas.android.com/apk/res/android	textColor@color/text_secondary"Œ(˜„2 
 Ü‡˜øcolor/text_secondary0"f
 *http://schemas.android.com/apk/res/androidid@+id/tv_glasses"Œ(Ğ„2
-«†¤øid/tv_glasses0"
+¬†¤øid/tv_glasses0"
 *http://schemas.android.com/apk/res/androidtext@string/water_glasses_unit"Œ(Ï‚„2%
 #Ş‚Èøstring/water_glasses_unit0Œ3l,e)*á9
 ×9!androidx.cardview.widget.CardView"N
@@ -164,7 +164,7 @@ visibilitygone"™(Ü„2:0"a
 *http://schemas.android.com/apk/res/androidlayout_marginTop20dp"™(ø„2:h("S
 'http://schemas.android.com/apk/res-autocardCornerRadius16dp"™(¯ø2:h "l
 *http://schemas.android.com/apk/res/androidid@+id/card_tracking"™(Ğ„2
-ê¤øid/card_tracking0*×3
+ë¤øid/card_tracking0*×3
 Í3LinearLayout"L
 *http://schemas.android.com/apk/res/androidpadding20dp"Ÿ(Õ„2:h("a
 *http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"Ÿ(ô„2:0ÿÿÿÿÿÿÿÿÿ"b
@@ -193,7 +193,7 @@ horizontal"¥(Ä„2:0 *­
 *http://schemas.android.com/apk/res/android	textColor@color/text_secondary"¶(˜„2 
 Ü‡˜øcolor/text_secondary0"r
 *http://schemas.android.com/apk/res/androidid@+id/tv_progress_text"¶(Ğ„2
-Ã†¤øid/tv_progress_text0"F
+Ä†¤øid/tv_progress_text0"F
 *http://schemas.android.com/apk/res/androidtext0 / 8 glasses(Ï‚„¶7¥:*”
 ŠProgressBar"X
 *http://schemas.android.com/apk/res/androidlayout_marginBottom20dp"Á(ú„2:h("F
@@ -205,7 +205,7 @@ horizontal"¥(Ä„2:0 *­
 4ø€„'android:attr/progressBarStyleHorizontal0ÿÿ"I
 *http://schemas.android.com/apk/res/androidprogress0"Á(·‚„2:0 "n
 *http://schemas.android.com/apk/res/androidid@+id/progress_water"Á(Ğ„2
-á„¤øid/progress_water0ÁE*
+â„¤øid/progress_water0ÁE*
 ÷TextView"X
 *http://schemas.android.com/apk/res/androidlayout_marginBottom12dp"Ê(ú„2:h"a
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"Ê(ô„2:0şÿÿÿÿÿÿÿÿ"b
@@ -232,7 +232,7 @@ background@drawable/card_white_rounded"Û(Ô„2'
 *http://schemas.android.com/apk/res/android	textColor@color/accent_red"Û(˜„2
  €˜øcolor/accent_red0"r
 *http://schemas.android.com/apk/res/androidid@+id/btn_remove_glass"Û(Ğ„2
-Ë¤øid/btn_remove_glass0":
+Ì¤øid/btn_remove_glass0":
 *http://schemas.android.com/apk/res/androidtext-(Ï‚„"M
 *http://schemas.android.com/apk/res/android	textStylebold"Û(—„2:8Û7*é
 ßTextView"M
@@ -246,13 +246,13 @@ background@drawable/card_white_rounded"Û(Ô„2'
 *http://schemas.android.com/apk/res/android	textColor@color/accent_blue"æ(˜„2
 š€˜øcolor/accent_blue0"n
 *http://schemas.android.com/apk/res/androidid@+id/tv_glass_count"æ(Ğ„2
-ª†¤øid/tv_glass_count0":
+«†¤øid/tv_glass_count0":
 *http://schemas.android.com/apk/res/androidtext0(Ï‚„"M
 *http://schemas.android.com/apk/res/android	textStylebold"æ(—„2:8æ8*À
 ¶TextView"
 *http://schemas.android.com/apk/res/android
 background@drawable/rounded_button"ñ(Ô„2#
-!€… ødrawable/rounded_button0"M
+!… ødrawable/rounded_button0"M
 *http://schemas.android.com/apk/res/androidgravitycenter"ñ(¯„2:8"Q
 *http://schemas.android.com/apk/res/androidlayout_width48dp"ñ(ô„2:h`"R
 *http://schemas.android.com/apk/res/androidlayout_height48dp"ñ(õ„2:h`"M

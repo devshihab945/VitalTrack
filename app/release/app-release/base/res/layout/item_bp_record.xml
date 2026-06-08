@@ -48,12 +48,12 @@ background#E53935"(Ô„2:Pµò”ÿ"O
 *http://schemas.android.com/apk/res/androidtextSize22sp"%(•„2:h‚,"S
 *http://schemas.android.com/apk/res/android	textColor#E53935"%(˜„2:Pµò”ÿ"g
 *http://schemas.android.com/apk/res/androidid@+id/tv_bp_value"%(Ğ„2
-’†¤øid/tv_bp_value0"?
+“†¤øid/tv_bp_value0"?
 *http://schemas.android.com/apk/res/androidtext120/80(Ï‚„"L
 *http://schemas.android.com/apk/res/android	textStylebold"%(—„2:8%(*Ÿ
 –TextView"r
 *http://schemas.android.com/apk/res/androidlayout_toEndOf@id/tv_bp_value"/(¸‡„2
-’†¤øid/tv_bp_value0"`
+“†¤øid/tv_bp_value0"`
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"/(ô„2:0şÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"/(õ„2:0şÿÿÿÿÿÿÿÿ"L
 *http://schemas.android.com/apk/res/androidtextSize12sp"/(•„2:h‚"P
@@ -61,13 +61,13 @@ background#E53935"(Ô„2:Pµò”ÿ"O
 *http://schemas.android.com/apk/res/android	textColor@color/text_secondary"/(˜„2 
 Ü‡˜øcolor/text_secondary0"v
 *http://schemas.android.com/apk/res/androidlayout_alignBottom@id/tv_bp_value"/(Šƒ„2
-’†¤øid/tv_bp_value0">
+“†¤øid/tv_bp_value0">
 *http://schemas.android.com/apk/res/androidtext mmHg(Ï‚„/+*¨
 ŸTextView"v
 *http://schemas.android.com/apk/res/androidlayout_toEndOf@id/accent_stripe">(¸‡„2
 Ú€¤øid/accent_stripe0"p
 *http://schemas.android.com/apk/res/androidlayout_below@id/tv_bp_value">(…ƒ„2
-’†¤øid/tv_bp_value0"V
+“†¤øid/tv_bp_value0"V
 *http://schemas.android.com/apk/res/android
 background	#1AE53935">(Ô„2:Hµò”×"R
 *http://schemas.android.com/apk/res/androidpaddingVertical2dp">(¾Š„2:h"M
@@ -83,13 +83,13 @@ paddingTop2dp">(×„2:h"P
 *http://schemas.android.com/apk/res/androidpaddingLeft8dp">(Ö„2:h"O
 *http://schemas.android.com/apk/res/androidpaddingRight8dp">(Ø„2:h"g
 *http://schemas.android.com/apk/res/androidid@+id/tv_category">(Ğ„2
-—†¤øid/tv_category0"?
+˜†¤øid/tv_category0"?
 *http://schemas.android.com/apk/res/androidtextNormal(Ï‚„>'*İ
 ÔTextView"v
 *http://schemas.android.com/apk/res/androidlayout_toEndOf@id/accent_stripe"K(¸‡„2
 Ú€¤øid/accent_stripe0"p
 *http://schemas.android.com/apk/res/androidlayout_below@id/tv_category"K(…ƒ„2
-—†¤øid/tv_category0"R
+˜†¤øid/tv_category0"R
 *http://schemas.android.com/apk/res/androiddrawablePadding4dp"K(ñ‚„2:h"`
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"K(ô„2:0şÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"K(õ„2:0şÿÿÿÿÿÿÿÿ"L
@@ -98,13 +98,13 @@ paddingTop2dp">(×„2:h"P
 Ü‡˜øcolor/text_secondary0"S
 *http://schemas.android.com/apk/res/androidlayout_marginTop4dp"K(ø„2:h"a
 *http://schemas.android.com/apk/res/androidid@+id/tv_pulse"K(Ğ„2
-Ä†¤øid/tv_pulse0"D
+Å†¤øid/tv_pulse0"D
 *http://schemas.android.com/apk/res/androidtextğŸ’“ 72 bpm(Ï‚„K'*
 øTextView"v
 *http://schemas.android.com/apk/res/androidlayout_toEndOf@id/accent_stripe"W(¸‡„2
 Ú€¤øid/accent_stripe0"j
 *http://schemas.android.com/apk/res/androidlayout_below@id/tv_pulse"W(…ƒ„2
-Ä†¤øid/tv_pulse0"`
+Å†¤øid/tv_pulse0"`
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"W(ô„2:0şÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"W(õ„2:0şÿÿÿÿÿÿÿÿ"L
 *http://schemas.android.com/apk/res/androidtextSize11sp"W(•„2:h‚"o
@@ -112,7 +112,7 @@ paddingTop2dp">(×„2:h"P
 Ú‡˜øcolor/text_hint0"S
 *http://schemas.android.com/apk/res/androidlayout_marginTop2dp"W(ø„2:h"_
 *http://schemas.android.com/apk/res/androidid@+id/tv_date"W(Ğ„2
-˜†¤ø
+™†¤ø
 id/tv_date0"N
 *http://schemas.android.com/apk/res/androidtext01 Jan 2025, 09:00 AM(Ï‚„W'*Ø
 ÏTextView"v
@@ -121,7 +121,7 @@ id/tv_date0"N
 *http://schemas.android.com/apk/res/android
 visibilitygone"d(Ü„2:0"h
 *http://schemas.android.com/apk/res/androidlayout_below@id/tv_date"d(…ƒ„2
-˜†¤ø
+™†¤ø
 id/tv_date0"`
 *http://schemas.android.com/apk/res/androidlayout_widthwrap_content"d(ô„2:0şÿÿÿÿÿÿÿÿ"a
 *http://schemas.android.com/apk/res/androidlayout_heightwrap_content"d(õ„2:0şÿÿÿÿÿÿÿÿ"L
@@ -130,7 +130,7 @@ id/tv_date0"`
 Ü‡˜øcolor/text_secondary0"S
 *http://schemas.android.com/apk/res/androidlayout_marginTop2dp"d(ø„2:h"_
 *http://schemas.android.com/apk/res/androidid@+id/tv_note"d(Ğ„2
-À†¤ø
+Á†¤ø
 id/tv_note0"N
 *http://schemas.android.com/apk/res/android	textStyleitalic"d(—„2:8d)*™
 LinearLayout"X
@@ -141,7 +141,7 @@ id/tv_note0"N
 horizontal"m(Ä„2:0 "X
 *http://schemas.android.com/apk/res/androidlayout_alignParentEndtrue"m(¼‡„2:@"e
 *http://schemas.android.com/apk/res/androidid@+id/ll_actions"m(Ğ„2
-Îƒ¤øid/ll_actions0*ö
+Ïƒ¤øid/ll_actions0*ö
 í	ImageView"y
 *http://schemas.android.com/apk/res/androidsrc@drawable/ic_edit_circle"v(™‚„2#
 !Óƒ ødrawable/ic_edit_circle0"¢
